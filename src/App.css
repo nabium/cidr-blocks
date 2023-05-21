@@ -1,0 +1,77 @@
+.App {
+  text-align: left;
+  margin: 8px;
+}
+
+.App-input input {
+  border: none;
+  border-bottom: 1px solid black;
+}
+
+.App-input input:hover {
+  border-bottom: 2px solid black;
+}
+
+.App-input input:focus-visible {
+  border-bottom: 2px solid black;
+  outline: none;
+}
+
+.App-input button {
+  margin-left: 0.2em;
+}
+
+.App-nav {
+  display: flex;
+  flex-direction: row;
+  margin-block-start: 1rem;
+}
+
+.App-nav-btn {
+  min-width: 2.5em;
+  margin-right: 0.2rem;
+}
+
+.NetAddr {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.NetAddr-errmsg {
+  background-color: rgb(255, 224, 224);
+  padding: 0.5em 0.5em;
+  border: 1px solid rgba(0, 0, 0, 0.40);
+  border-radius: 10px;
+  box-shadow: 3px 3px 5px 0px rgba(0, 0, 0, 0.40);
+}
+
+.NetAddr h3 {
+  margin-block-start: 0.5em;
+  margin-block-end: 0.5em;
+}
+
+.NetAddr h4 {
+  margin-block-start: 0.2em;
+  margin-block-end: 0;
+}
+
+.NetBlock {
+  margin: 1rem 0;
+  padding: 0.5em 0.5em;
+  border: 1px solid rgba(0, 0, 0, 0.40);
+  border-radius: 10px;
+  box-shadow: 3px 3px 5px 0px rgba(0, 0, 0, 0.40);
+}
+
+.NetBlock-table td {
+  padding: 0 0.5em;
+}
+
+.NetBlock-row-header {
+  font-weight: 500;
+}
+
+.NetBlock-row-value {
+  min-width: 15em;
+}
